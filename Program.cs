@@ -8,18 +8,18 @@ namespace PolymorphismForSummerSchool
         static void Main(string[] args)
         {
             ///* Static or Compile Time Polymorphism  */
-            //CalculateStaticPolymorphism c = new CalculateStaticPolymorphism();
-            //c.AddNumbers(int.MaxValue, 2);            
-            //c.AddNumbers((short)4, 45);
-            //c.AddNumbers("test", 45);
-            //c.AddNumbers(1, 2, 3);
-            ////  c.AddNumbers(1, 2, 3, 4);
+            CalculateStaticPolymorphism c = new CalculateStaticPolymorphism();
+            c.AddNumbers(int.MaxValue, 2);
+            c.AddNumbers((short)4, 45);
+            c.AddNumbers("test", 45);
+            c.AddNumbers(1, 2, 3);
+            //  c.AddNumbers(1, 2, 3, 4);
 
-            //B b = new B();
-            //b.AddNumbers(5.7, 4.3);
-            //b.AddNumbers(7, 8);
+            B b = new B();
+            b.AddNumbers(5.7, 4.3);
+            b.AddNumbers(7, 8);
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
             /* Dynamic / Runtime Polymorphism */
             var drawings = new List<Drawing>
